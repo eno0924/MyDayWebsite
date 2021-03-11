@@ -1,0 +1,59 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body,html
+{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #009999;
+}
+
+.btnAddPlan
+{
+  display: inline-block;
+  border: none;
+  color: black;
+  cursor: pointer;
+  background: linear-gradient(to right, #009999 0%, #ffffcc 54%);
+  padding: 7px 20px;
+  font-size: 30px;
+}
+
+.btnAddPlan:hover
+{
+  background: white;
+  font-size: 25px;
+}
+
+.btnDelete
+{
+  background: tomato;
+  color: black;
+  border: none;
+  float: right;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btnDelete:hover
+{
+  background:  #993333;
+}
+
+.addPlanForm
+{
+  display: flex;
+}
+
+
+
+.txtAddPlan{
+  flex: 10;
+  padding: 5px;
+  height: 70px;
+  font-size: 30px;
+}
